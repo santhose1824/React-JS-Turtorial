@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rules to follow while writing HTML">
+    <title>HTML Rules</title>
+</head>
+<body>
+    <h1>Rules to Follow While Writing HTML</h1>
+    
+    <h2>General Rules</h2>
+    <ul>
+        <li>Start the document with <code>&lt;!DOCTYPE html&gt;</code> to define the document type as HTML5.</li>
+        <li>Use proper HTML structure: <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code> sections.</li>
+        <li>Always declare the <code>lang</code> attribute in the <code>&lt;html&gt;</code> tag for accessibility.</li>
+    </ul>
+
+    <h2>Syntax Rules</h2>
+    <ul>
+        <li>Use lowercase for HTML tags and attributes.</li>
+        <li>Always close tags (including self-closing tags like <code>&lt;img /&gt;</code> and <code>&lt;input /&gt;</code>).</li>
+        <li>Enclose attribute values in double quotes (<code>"</code>).</li>
+        <li>Avoid using deprecated tags (e.g., <code>&lt;font&gt;</code>, <code>&lt;center&gt;</code>, <code>&lt;marquee&gt;</code>).</li>
+    </ul>
+
+    <h2>Indentation and Nesting</h2>
+    <ul>
+        <li>Use consistent indentation (2 or 4 spaces per level).</li>
+        <li>Nest elements properly to maintain a clear hierarchy.</li>
+        <li>Do not overlap or improperly nest tags.</li>
+    </ul>
+
+    <h2>Semantic HTML</h2>
+    <ul>
+        <li>Use semantic tags like <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;section&gt;</code>.</li>
+        <li>Use heading tags (<code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>) in a logical and hierarchical order.</li>
+    </ul>
+
+    <h2>Accessibility</h2>
+    <ul>
+        <li>Provide descriptive <code>alt</code> attributes for images.</li>
+        <li>Use <code>&lt;label&gt;</code> elements for form controls.</li>
+        <li>Use landmarks like <code>&lt;main&gt;</code>, <code>&lt;nav&gt;</code>, and <code>&lt;footer&gt;</code>.</li>
+        <li>Ensure proper contrast between text and background colors.</li>
+    </ul>
+
+    <h2>Attributes</h2>
+    <ul>
+        <li>Use unique <code>id</code> attributes and meaningful <code>class</code> names.</li>
+        <li>Use appropriate attributes like <code>href</code> for links and <code>src</code> for images.</li>
+        <li>Avoid inline styles and scripts whenever possible.</li>
+    </ul>
+
+    <h2>Comments</h2>
+    <ul>
+        <li>Use comments (<code>&lt;!-- Comment --&gt;</code>) to explain sections of the code, but avoid excessive commenting.</li>
+    </ul>
+
+    <h2>External Resources</h2>
+    <ul>
+        <li>Link external CSS files using <code>&lt;link&gt;</code> in the <code>&lt;head&gt;</code> section.</li>
+        <li>Place external JavaScript files at the bottom of the <code>&lt;body&gt;</code> or use <code>defer</code>/<code>async</code>.</li>
+    </ul>
+
+    <h2>Performance and Optimization</h2>
+    <ul>
+        <li>Minimize inline CSS and JavaScript.</li>
+        <li>Compress and optimize images for faster loading.</li>
+        <li>Use meta tags for viewport settings to make the website responsive.</li>
+    </ul>
+
+    <h2>Validation</h2>
+    <ul>
+        <li>Validate your code using the W3C Validator to ensure standards compliance.</li>
+        <li>Avoid duplicate <code>id</code> attributes.</li>
+    </ul>
+
+    <h2>Avoid Common Mistakes</h2>
+    <ul>
+        <li>Do not use inline CSS styles (<code>&lt;p style="color: red;"&gt;</code>).</li>
+        <li>Avoid using too many <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> tags unnecessarily.</li>
+        <li>Ensure all <code>&lt;a&gt;</code> tags have meaningful text, not just “Click here.”</li>
+    </ul>
+</body>
+</html>
