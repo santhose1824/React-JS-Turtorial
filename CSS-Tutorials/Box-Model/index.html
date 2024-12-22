@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model Demonstration</title>
+    <style>
+        .box{
+            background-color: yellow;
+            width: 300px;
+            height: 300px;
+            /* border: 20px solid red; */
+            border-top: 20px solid red;
+            border-bottom: 20px solid green;
+            border-right: 20px solid purple;
+            border-left: 20px solid black;
+            /* padding: 15px; */
+            /* padding-top: 30px;
+            padding-bottom: 20px;
+            padding-right: 20px;
+            padding-left: 15px; */
+            padding: 30px 15px;
+
+            /* margin: 50px; */
+            margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+
+        }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="content">
+        This is the content area. The box around it demonstrates the CSS box
+        model.
+      </div>
+    </div>
+  </body>
+</html>

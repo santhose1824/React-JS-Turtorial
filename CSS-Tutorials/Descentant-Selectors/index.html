@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selectors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Descandant Selectors</h1>
+    <div class="container">
+        <h2>This is a heading inside the container</h2>
+        <p>This is a paragraph directly inside the container.</p>
+        <div>
+            <h2>Something</h2>
+            <p>
+                This isa nested paragraph (still affected by the descendant selector).
+            </p>
+            <p class="speccial">
+                This is a special paragraph with additional styling.
+            </p>
+        </div>
+    </div>
+    <p>This paragraph is outside the container and is not affected by the descandant selector.</p>
+</body>
+</html>

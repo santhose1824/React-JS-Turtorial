@@ -1,0 +1,40 @@
+/* Group Selectors */
+
+h1,h2{
+    color: purple;
+    text-align: center;
+}
+li{
+    list-style: none;
+    margin: 10px;
+}
+
+/* Attribute Selector */
+
+[data-priority='high']{
+    color: white;
+    background-color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+[data-priority='low']{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-family: Cambria, Coch
+    in, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

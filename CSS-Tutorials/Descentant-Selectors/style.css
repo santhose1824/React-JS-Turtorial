@@ -1,0 +1,13 @@
+.container p{
+    color: red;
+}
+
+
+.container .speccial{
+    background-color: blue;
+    color: white;
+}
+
+.container > h2{
+    color: purple;
+}

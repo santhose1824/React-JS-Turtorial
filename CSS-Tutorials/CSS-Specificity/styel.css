@@ -1,0 +1,13 @@
+/* Element Selector */
+
+p{
+    color: blue;
+}
+/* Class Selector */
+.text{
+    color: green;
+}
+/* ID Selector */
+#para{
+    color: red;
+}
