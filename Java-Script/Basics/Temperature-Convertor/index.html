@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+</head>
+<body style="display: flex; flex-direction: column; align-items: center;justify-content: center; font-family: Arial, Helvetica, sans-serif;">
+    <h1 style="color: green; font-size: 30px;">Temperature Convertor</h1>
+    <p style="color: gray; font-size: 10px;">This is used to convert the temperature into Celcius or Farienhet</p>
+    <label style="font-size: 20px; color: black;" for="age">Enter the temperature </label>
+    <input style="padding: 10px; border-radius: 5px; width: 300px; margin: 10px;" type="text" id="temp">
+    <select style="padding: 10px; border-radius: 5px; width: 300px; margin: 10px;" type="text"  name="temperature-types" id="dropDown">
+        <option style="font-size: 16px;padding: 10px;background-color: #333;color: #fff;cursor: pointer;" value="Celcius">Celcius</option>
+        <option style=" font-size: 16px;padding: 10px;background-color: #333;color: #fff;cursor: pointer;" value="Farienhet">Farienhet</option>
+    </select>
+    <button style="background-color: green; color: white; padding: 10px;
+    border-radius: 5px; border: none;width: 300px;" id="convert-btn" type="button">Convert</button>
+    <div id="result" style="font-size: 20px;"></div>
+    <script src="./script.js"></script>
+</body>
+</html>

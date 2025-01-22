@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Before</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #studentList{
+            width: 500px;
+            height: 400px;
+            text-align: center;
+            box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+            border-radius: 10px;
+        }
+        .student{
+            border-bottom: 2px solid #e0e7ee;
+            padding: 12px;
+            text-align: left;
+            transition:  backgorund-color 0.3s ease;
+        }
+        .student:last-child{
+            border-bottom: none;
+        }
+        .student:hover{
+            background-color: #e0e7ee;
+        }
+    </style>
+</head>
+<body>
+    <h1>Insert Before</h1>
+    <div id="studentList">
+        <h1>Student List</h1>
+        <hr/>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            margin-top: 30px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            height: 600px;
+            width: 500px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: aliceblue;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .heading{
+            font-size: 40px;
+            color:black;
+            font-weight: 400;
+        }
+        label{
+            margin: 15px;
+            font-size: 25px;
+            font-weight: 100;
+            color:grey;
+        }
+        input,select{
+            padding: 10px;
+            width: 300px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            border: none;
+            border-radius: 5px;
+        }
+
+        select{
+            font-size: 20px;
+            font-weight: 100;
+        }
+
+        button{
+            width: 300px;
+            padding: 10px;
+            color: white;
+            background-color: green;
+            border-radius: 5px;
+            border: none;
+            margin-top: 50px;
+        }
+        option{
+            font-size: 20px;
+            font-weight: 300;
+        }
+        .result{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Simple Calculator</h1>
+        <label for="num1">Enter the Number 1</label>
+        <input type="number" class="number1">
+        <label for="num2">Enter the Number 2</label>
+        <input type="number" class="number2">
+        <label for="">Select the Operation</label>
+        <select name="value" class="dropDown">
+            <option value="Add">Addtion</option>
+            <option value="Sub">Subtraction</option>
+            <option value="Multi">Multiply</option>
+            <option value="Div">Division</option>
+        </select>
+        <button id="btn">Submit</button>
+        <div class="result"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
