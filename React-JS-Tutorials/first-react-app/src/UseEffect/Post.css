@@ -1,0 +1,66 @@
+.gird{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+img{
+    height: 200px;
+    width: 300px;
+    object-fit: contain;
+    background-color: #e1e1e1;
+}
+
+.product-card{
+    background-color: rgb(59, 56, 56);
+    margin: 10px;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 300px;
+    box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.2);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.title{
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ede7e7;
+    text-align: center;
+}
+
+.price-category{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.price{
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ccc7c7;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.category{
+    cursor: pointer;
+    text-transform: capitalize;
+    color: white;
+    background: #a46827;
+    padding: 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
